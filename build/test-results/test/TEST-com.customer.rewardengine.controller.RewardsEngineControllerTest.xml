@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.customer.rewardengine.controller.RewardsEngineControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-10-02T19:31:29.542Z" hostname="DESKTOP-27LF8VS" time="7.203">
+  <properties/>
+  <testcase name="testGetRewardsByCustomerId_Success()" classname="com.customer.rewardengine.controller.RewardsEngineControllerTest" time="7.203"/>
+  <system-out><![CDATA[01:01:35.543 [Test worker] INFO org.springframework.mock.web.MockServletContext -- Initializing Spring TestDispatcherServlet ''
+01:01:35.543 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Initializing Servlet ''
+01:01:35.553 [Test worker] INFO org.springframework.test.web.servlet.TestDispatcherServlet -- Completed initialization in 0 ms
+]]></system-out>
+  <system-err><![CDATA[Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (C:\gradle-9.0.0\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.17.7\fbf3d6d649ed37fc9e9c59480a05be0a26e3c2da\byte-buddy-agent-1.17.7.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+[2025.10.03 01:01:33] (Coverage  WARN): Error during class instrumentation: org/springframework/web/servlet/config/annotation/WebMvcConfigurationSupport: java.lang.NoClassDefFoundError: jakarta/validation/ValidatorFactory
+]]></system-err>
+</testsuite>
